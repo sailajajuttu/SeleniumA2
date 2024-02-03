@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="regression"></include>
+			<include name="sanity"></include>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="grroupExecution.TestClass4"/>
+      <class name="grroupExecution.TestClass3"/>
+      <class name="grroupExecution.TestClass2"/>
+      <class name="grroupExecution.TestClass1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
