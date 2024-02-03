@@ -17,7 +17,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+/**
+ * This class is used by Login script
+ */
 public class LoginScriptUsingExcelFile {
 
 	public static void main(String[] args) {
